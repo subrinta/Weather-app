@@ -1,0 +1,106 @@
+body {
+    background-image: url('/img/w2.png');
+    background-size: cover;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-containt {
+    flex-grow: 1;
+}
+
+footer{
+    color: rgb(248, 249, 250);
+    text-shadow: black;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+footer p{
+    padding-left: 3px;
+    padding-right: 3px;
+
+    display: inline-block;
+    background-color: rgb(233, 96, 210);
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+h1 span{
+    padding-left: 3px;
+    padding-right: 3px;
+
+    display: inline-block;
+    background-color: rgb(241, 169, 229);
+}
+
+header a{
+    padding-left: 3px;
+    padding-right: 3px;
+
+    display: inline-block;
+    background-color: rgb(139, 137, 137);
+    color: #05fc80;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    padding: 9px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px #999;
+  }
+  
+button:hover {background-color: #3e8e41}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+
+#postbox{
+    visibility: hidden;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.massege{
+    padding-left: 3px;
+    padding-right: 3px;
+
+    display: inline-block;
+    background-color: rgb(241, 193, 233);
+}

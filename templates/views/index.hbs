@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+
+    <body>
+        <dir class="main-containt">
+            {{>header}}
+            <p class="massege">{{text}}</p>
+            <form>
+                <input placeholder="location">
+                <button>Search</button>
+            </form>
+            <br>
+            <br>
+            <div id="postbox">
+                <p id="msg1"></p>
+                <p id="msg2"></p>
+                <div id = "imgDiv"></div>
+            </div>
+            
+        </dir>
+        {{>footer}}
+        <script src='js/system.js'></script>
+    </body>
+</html>
